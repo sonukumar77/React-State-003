@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.mainBox {
+  border: 2px solid blue;
+  width: 60vw;
+  height: 90vh;
+  min-height: 90vh;
+  margin: 1.5rem auto;
+  padding: 30px 20px;
+}
+
+.row {
+  width: 100%;
+
+}
+
+.row h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.outputDiv {
+  /* border:  2px solid red; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border: 1px solid rgb(215, 215, 219);
+  border-radius: 5px;
+  background-color: rgb(228, 225, 225);
+
+  display: relative;
+}
+
+
+.row input[type="text"] {
+  width: 95%;
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+
+}
+
+.copyIcon {
+  width: 5%;
+  height: 100%;
+  cursor: pointer;
+  background-color: rgb(89, 162, 174);
+  border-radius: 0 5px 5px 0;
+  padding: 0.5rem;
+
+}
+
+.copyText {
+  color: green;
+  float: right;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+
+}
+
+select {
+  width: 20%;
+  padding: 0.5rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 2.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(89, 162, 174);
+  border: 3px solid rgb(160, 207, 214);
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.5s linear;
+}
+
+button:hover {
+  background-color: rgb(58, 142, 155);
+}
